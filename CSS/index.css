@@ -314,4 +314,12 @@ audio::-webkit-media-controls-enclosure, audio::-webkit-media-controls-panel, au
 .emoji div button {
   background: #444;
 }
+
+@media screen and (max-width: 600px) {
+  .textDesignContainer, .textDesignContainer label {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 /*# sourceMappingURL=index.css.map */
